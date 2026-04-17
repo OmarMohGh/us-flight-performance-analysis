@@ -24,10 +24,10 @@ The analysis is based on the 2015 Flight Delays and Cancellations dataset. The d
 
 ## Dashboard Preview
 ### 1. Performance Overview
-![Overview](images/OverviewPage.png)
+![Overview](Images/OverviewPage.png)
 
 ### 2. Airport Delay Analysis
-![Airports](images/AirportDelayAnalysis.png)
+![Airports](Images/AirportDelayAnalysis.png)
 
 ### 3. Airline Delay Analysis
 ![Airlines](Images/AirlineDelayAnalysis.png)
