@@ -1,37 +1,36 @@
-US Flight Performance and Delays Analysis
-Project Overview
-This project analyzes flight performance and delays in the United States for the year 2015. The goal is to help aviation operations managers identify the root causes of delays and cancellations. By understanding why and where delays happen, management can make better decisions to improve flight reliability and customer satisfaction.
+# US Flight Performance Analysis
 
-Dataset
-The project uses the "2015 Flight Delays and Cancellations" dataset. The data was provided in three separate files:
+An interactive Power BI dashboard analyzing 2015 US flight data to identify root causes of delays and cancellations. This project provides actionable insights for aviation operations management to improve on-time performance.
 
-Flights Table: Contains flight dates, departure/arrival times, and delay durations.
+## Project Overview
+This project focuses on analyzing flight reliability across the United States. By visualizing key performance indicators (KPIs) and delay distributions, it helps stakeholders understand whether delays are caused by weather, air system issues, or airline operations.
 
-Airlines Table: Contains the full names of the airline carriers.
+## Dataset
+The analysis is based on the 2015 Flight Delays and Cancellations dataset. The data was processed from three distinct sources:
+* **Flights:** Detailed records of scheduled vs. actual arrival and departure times.
+* **Airlines:** Mapping of airline codes to full carrier names.
+* **Airports:** Geographic information for origin and destination airports.
 
-Airports Table: Contains airport names, cities, and locations.
+## Tools Used
+* **Power BI:** Data visualization and report design.
+* **Power Query:** Data cleaning, removing null values, and merging relational tables.
+* **DAX:** Custom measures for On-Time Performance (%), Goal Tracking, and Average Delay durations.
 
-Tools Used
-Power BI: For data visualization and dashboard creation.
+## Key Insights
+* **Target Gap:** On-Time Performance stands at 61.79%, failing to meet the 85.00% organizational goal.
+* **Primary Cancellation Cause:** Weather accounts for over 54% of all cancellations, followed by Airline-specific issues at 28%.
+* **Major Delay Drivers:** Late Aircraft Delays (26.24 min) and Airline Delays (19.59 min) are the largest contributors to total arrival delay time.
+* **Critical Hubs:** ORD (Chicago) and DFW (Dallas) recorded the highest number of flight cancellations.
 
-Power Query: Used to clean the data, handle missing values, and merge the three separate files into a single relational model.
+## Dashboard Preview
+### 1. Performance Overview
+![Overview](images/OverviewPage.png)
 
-DAX (Data Analysis Expressions): Used to create custom measures such as On-Time Performance (%), Average Delay times, and Cancellation Rates.
+### 2. Airport Delay Analysis
+![Airports](images/AirportDelayAnalysis.png)
 
-Key Insights
-On-Time Performance: The overall on-time rate is 61.79%, which is significantly below the target goal of 85%.
+### 3. Airline Delay Analysis
+![Airlines](images/AirlineDelayAnalysis.png)
 
-Root Causes of Cancellations: Weather is the primary reason for flight cancellations, accounting for 54.35% of all cancelled flights.
-
-Delay Drivers: "Late Aircraft Delays" (26.24 min average) and "Airline Delays" (19.59 min average) are the biggest contributors to total delay time.
-
-Peak Periods: The dashboard shows a visible increase in arrival delays during the summer months (June and July) and the end of the year (December).
-
-Airport Performance: Chicago O'Hare (ORD) and Dallas/Fort Worth (DFW) show the highest volume of cancellations.
-
-Dashboard Preview
-Overview Page
-Airport Delay Analysis
-Airline Delay Analysis
-Business Value
-This dashboard provides management with a clear view of operational bottlenecks. By identifying that "Late Aircraft" and "Airline Delays" are higher than weather-related delays in specific months, managers can focus on improving ground handling efficiency and crew scheduling to reduce controllable delays.
+## Business Value
+The dashboard enables managers to move from reactive to proactive decision-making. By identifying that "Airline Delays" are nearly four times the target goal, the organization can prioritize internal process improvements and ground crew efficiency to reduce controllable costs.
