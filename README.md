@@ -30,7 +30,7 @@ The analysis is based on the 2015 Flight Delays and Cancellations dataset. The d
 ![Airports](images/AirportDelayAnalysis.png)
 
 ### 3. Airline Delay Analysis
-![Airlines](images/AirlineDelayAnalysis.png)
+![Airlines](Images/AirlineDelayAnalysis.png)
 
 ## Business Value
 The dashboard enables managers to move from reactive to proactive decision-making. By identifying that "Airline Delays" are nearly four times the target goal, the organization can prioritize internal process improvements and ground crew efficiency to reduce controllable costs.
